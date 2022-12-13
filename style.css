@@ -1,0 +1,30 @@
+.div-section{
+    margin: 20px;
+    display: flex;
+}
+
+.div-section section{
+    margin: 20px;
+    width: 50%;
+    height: 360px;
+}
+section>div{
+    text-align: center;
+}
+section{
+    border: solid;
+    border-radius: 10%;
+    text-align: center;
+}
+
+div>img{
+    background-color: red;
+    height: 250px;
+}
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
