@@ -10,7 +10,7 @@ Le projet Manhwa vise à offrir une plateforme pour la lecture en ligne de manhw
   - Recherche de manhwas par titre ou genre
 
 ## 🔧 Technologie utilisée
-HTML, CSS et JavaScript pour le développement du front-end
-Firebase pour la gestion des données
+  - HTML, CSS et JavaScript pour le développement du front-end
+  - Firebase pour la gestion des données
 
 ## *Le projet est encore en cours de développement.*
