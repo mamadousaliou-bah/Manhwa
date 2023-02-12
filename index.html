@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,13 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="css/gameList.css" />
 
 	<!-- inclusion du fichier js compilé par babel dans le dossier build -->
-	<script src="./src/main.js" defer></script>
+	<script type="module" src="./src/main.js"></script>
 </head>
 <body>
 	<header>
 		<nav>
 			<a href="/" class="logo">
-				<span><em>Man</em>hwa</span>
+				<span><em>Man</em>hwa De Gossen</span>
 			</a>
 		</nav>
 	</header>
@@ -28,6 +28,11 @@
 					<button class="toggleSearchButton">Rechercher</button>
 					<form class="searchForm" style="display: none;">
 						<input type="text" name="search" placeholder="Nom du jeu"/>
+						<select name="ordering">
+							<option value="">Tri par pertinence</option>
+							<option value="-metacritic">Tri par note</option>
+							<option value="-released">Tri par date de sortie</option>
+						</select>
 						<button type="submit">Filtrer</button>
 					</form>
 				</header>
@@ -37,6 +42,7 @@
 	</section>
 	<footer>
 		<div>
+			<center><p>Site web de manhwa personnel de <em>Gossen</em></p></center>
 		</div>
 	</footer>
 </body>
