@@ -14,3 +14,4 @@ Le projet Manhwa vise à offrir une plateforme pour la lecture en ligne de manhw
   - Firebase pour la gestion des données
 
 ## *Le projet est encore en cours de développement.*
+  - Il y'a encore le probleme d'affichage sur le navigateur firefox
